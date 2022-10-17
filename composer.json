@@ -1,0 +1,36 @@
+{
+    "name": "lemurengine/lemurtag-googlesearch",
+    "type": "library",
+    "description": "An AIML tag to perform a google search in the Lemur Engine Chatbot",
+    "keywords": [
+        "googlesearch","ai", "chatbot", "chat bot", "AIML", "program-o", "program o", "programo", "lemur engine", "lemur-engine"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elizabeth perreau",
+            "email": "lemurengine@theramenrobotdiscocode.com"
+        }
+    ],
+    "require": {
+        "lemurengine/lemurbot": "*",
+        "ext-xml": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LemurEngine\\GoogleSearch\\": "src"
+        }
+    },
+    "config": {
+        "preferred-install": "dev",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LemurEngine\\GoogleSearch\\TagServiceProvider"
+            ]
+        }
+    }
+}

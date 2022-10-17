@@ -1,0 +1,2 @@
+Filename,Pattern,Topic,That,Template,Status
+cstm-google-search,"SEARCH GOOGLE FOR A *",,,"<googlesearch><star /></googlesearch>",A
