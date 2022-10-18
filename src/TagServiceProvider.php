@@ -36,9 +36,9 @@ class TagServiceProvider extends ServiceProvider
     public function boot()
     {
         AboutCommand::add('Lemur Engine Google Search Tag Package', fn () => [
-            'Version' => '1.0.0',
-            'Desc' => 'This package creates a custom googlesearch tag so that you can write AIML and return a link to google results',
-            'Release Info' => 'https://github.com/lemurengine/lemurtag-googlesearch/releases/tag/v1.0.0',
+            'Version' => '1.0.1',
+            'Desc' => 'Removed redundant tests, added license, fixed LemurBot version and added contributing.md',
+            'Release Info' => 'https://github.com/lemurengine/lemurtag-googlesearch/releases/tag/1.0.1',
         ]);
     }
 }

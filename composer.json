@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "lemurengine/lemurbot": "*",
+        "lemurengine/lemurbot": "^2",
         "ext-xml": "*",
         "ext-simplexml": "*"
     },
