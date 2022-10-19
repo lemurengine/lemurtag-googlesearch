@@ -36,9 +36,9 @@ class TagServiceProvider extends ServiceProvider
     public function boot()
     {
         AboutCommand::add('Lemur Engine Google Search Tag Package', fn () => [
-            'Version' => '1.0.1',
-            'Desc' => 'Removed redundant tests, added license, fixed LemurBot version and added contributing.md',
-            'Release Info' => 'https://github.com/lemurengine/lemurtag-googlesearch/releases/tag/1.0.1',
+            'Version' => '1.0.2',
+            'Desc' => 'Fixed typo in readme',
+            'Release Info' => 'https://github.com/lemurengine/lemurtag-googlesearch/releases/tag/1.0.2',
         ]);
     }
 }

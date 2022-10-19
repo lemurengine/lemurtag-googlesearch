@@ -6,7 +6,7 @@ Add a AIML tag to your Lemur Engine chatbot to allow you to return a link to goo
 
 ### Install with composer
 ```php
-composer require emurengine/lemurtag-googlesearch
+composer require lemurengine/lemurtag-googlesearch
 ```
 
 ### Create the AIML categories (optional)
