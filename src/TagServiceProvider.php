@@ -37,7 +37,8 @@ class TagServiceProvider extends ServiceProvider
     {
         AboutCommand::add('Lemur Engine Google Search Tag Package', fn () => [
             'Version' => '1.0.1',
-            'Desc' => 'Fixed typo in readme',
+            'Desc' => 'Added license, contributors.md and fixed a typo in the readme.
+                        Removed redundant tests from package',
             'Release Info' => 'https://github.com/lemurengine/lemurtag-googlesearch/releases/tag/1.0.1',
         ]);
     }
